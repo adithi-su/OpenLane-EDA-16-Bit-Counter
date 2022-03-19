@@ -1,0 +1,22 @@
+
+16. Printing statistics.
+
+=== counter_16b ===
+
+   Number of wires:                 65
+   Number of wire bits:            110
+   Number of public wires:           5
+   Number of public wire bits:      20
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 91
+     $_ANDNOT_                       8
+     $_MUX_                         32
+     $_NAND_                         8
+     $_NOT_                          1
+     $_OR_                          11
+     $_XNOR_                         7
+     $_XOR_                          8
+     sky130_fd_sc_hd__dfxtp_2       16
+

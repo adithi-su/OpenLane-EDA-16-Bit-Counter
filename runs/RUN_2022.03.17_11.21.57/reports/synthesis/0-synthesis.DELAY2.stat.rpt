@@ -1,0 +1,37 @@
+
+42. Printing statistics.
+
+=== counter_16b ===
+
+   Number of wires:                 84
+   Number of wire bits:             99
+   Number of public wires:           5
+   Number of public wire bits:      20
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 96
+     sky130_fd_sc_hd__a21o_2         1
+     sky130_fd_sc_hd__a21oi_2        7
+     sky130_fd_sc_hd__a311oi_2       1
+     sky130_fd_sc_hd__a31o_2         4
+     sky130_fd_sc_hd__a31oi_2        4
+     sky130_fd_sc_hd__a41o_2         2
+     sky130_fd_sc_hd__a41oi_2        3
+     sky130_fd_sc_hd__and2_2         3
+     sky130_fd_sc_hd__and3_2         4
+     sky130_fd_sc_hd__and4_2         2
+     sky130_fd_sc_hd__buf_1         15
+     sky130_fd_sc_hd__dfxtp_2       16
+     sky130_fd_sc_hd__inv_2          3
+     sky130_fd_sc_hd__nand2_2        7
+     sky130_fd_sc_hd__nand3_2        3
+     sky130_fd_sc_hd__nand4_2        4
+     sky130_fd_sc_hd__nor2_2        10
+     sky130_fd_sc_hd__nor3_2         2
+     sky130_fd_sc_hd__o21a_2         3
+     sky130_fd_sc_hd__o21ba_2        1
+     sky130_fd_sc_hd__o21bai_2       1
+
+   Chip area for module '\counter_16b': 975.936000
+

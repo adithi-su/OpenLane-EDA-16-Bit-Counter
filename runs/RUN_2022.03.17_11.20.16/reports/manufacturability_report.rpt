@@ -1,0 +1,19 @@
+Design Name: counter_16b
+Run Directory: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/32-counter_16b.lvs.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0

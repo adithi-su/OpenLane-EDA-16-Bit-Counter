@@ -1,0 +1,146 @@
+Thu Mar 17 11:20:16 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -i /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/merged_unpadded.lef |& tee /dev/null"
+
+Thu Mar 17 11:20:16 UTC 2022 - Executing "openroad -python /openlane/scripts/mergeLib.py --output /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/synthesis/merged.lib --name sky130A_merged /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Thu Mar 17 11:20:17 UTC 2022 - Executing "openroad -python /openlane/scripts/libtrim.py --cell-file /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/synthesis/trimmed.lib /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/synthesis/merged.lib"
+
+Thu Mar 17 11:20:17 UTC 2022 - Executing "echo {openlane 00da77e58c86a2fa745dafc2f4b277191cb8d3ac} > /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/OPENLANE_VERSION"
+
+Thu Mar 17 11:20:17 UTC 2022 - Executing "openroad -python /openlane/scripts/new_tracks.py -i /home/adithi/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/routing/config.tracks"
+
+Thu Mar 17 11:20:17 UTC 2022 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Thu Mar 17 11:20:17 UTC 2022 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl -l /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/synthesis/1-synthesis.log |& tee /dev/null"
+
+Thu Mar 17 11:20:18 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/synthesis\/counter_16b.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:18 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:18 UTC 2022 - Executing "sed -i /defparam/d /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/synthesis/counter_16b.v"
+
+Thu Mar 17 11:20:18 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl"
+
+Thu Mar 17 11:20:19 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl"
+
+Thu Mar 17 11:20:20 UTC 2022 - Executing "openroad -python /openlane/scripts/defutil.py extract_core_dims --output-data /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/dimensions.txt --input-lef /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/merged.lef /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/floorplan/3-initial_fp.def"
+
+Thu Mar 17 11:20:20 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/ioplacer.tcl"
+
+Thu Mar 17 11:20:20 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/tapcell.tcl"
+
+Thu Mar 17 11:20:21 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/pdn.tcl"
+
+Thu Mar 17 11:20:21 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/replace.tcl"
+
+Thu Mar 17 11:20:22 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl"
+
+Thu Mar 17 11:20:23 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl"
+
+Thu Mar 17 11:20:23 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/placement\/counter_16b.resized.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:23 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/synthesis\/counter_16b.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:23 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/opendp.tcl"
+
+Thu Mar 17 11:20:24 UTC 2022 - Executing "openroad -python /openlane/scripts/libtrim.py --cell-file /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/cts/cts.lib.exclude.list --output /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/cts/cts.lib /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Thu Mar 17 11:20:24 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl"
+
+Thu Mar 17 11:20:55 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl"
+
+Thu Mar 17 11:20:56 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/cts\/counter_16b.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:56 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/placement\/counter_16b.resized.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:56 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/resizer_timing.tcl"
+
+Thu Mar 17 11:20:56 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl"
+
+Thu Mar 17 11:20:57 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/cts\/counter_16b.resized.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:57 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/cts\/counter_16b.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:57 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/opendp.tcl"
+
+Thu Mar 17 11:20:57 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl"
+
+Thu Mar 17 11:20:58 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/fill.tcl"
+
+Thu Mar 17 11:20:58 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl"
+
+Thu Mar 17 11:20:58 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/tmp\/routing\/17-global.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:58 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/results\/cts\/counter_16b.resized.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:20:58 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/droute.tcl"
+
+Thu Mar 17 11:21:03 UTC 2022 - Executing "openroad -python /openlane/scripts/tr_drc_to_klayout_drc.py -i /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/routing/detailed.drc -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/routing/detailed.klayout.xml --design-name counter_16b"
+
+Thu Mar 17 11:21:03 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl"
+
+Thu Mar 17 11:21:04 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/tmp\/routing\/19-detailed.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:21:04 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/tmp\/routing\/17-global.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:21:04 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl"
+
+Thu Mar 17 11:21:04 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl"
+
+Thu Mar 17 11:21:05 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl"
+
+Thu Mar 17 11:21:06 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl"
+
+Thu Mar 17 11:21:07 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl"
+
+Thu Mar 17 11:21:08 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /home/adithi/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/mag_gds.tcl </dev/null |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/26-gdsii.log"
+
+Thu Mar 17 11:21:09 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /home/adithi/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/gds_pointers.tcl </dev/null |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/26-gds_ptrs.log"
+
+Thu Mar 17 11:21:09 UTC 2022 - Executing "sed -i -n {/^<< properties >>/,/^<< end >>/p} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/gds_ptrs.mag"
+
+Thu Mar 17 11:21:09 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /home/adithi/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/lef.tcl </dev/null |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/26-lef.log"
+
+Thu Mar 17 11:21:09 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /home/adithi/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/maglef.tcl </dev/null |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/26-maglef.log"
+
+Thu Mar 17 11:21:10 UTC 2022 - Executing "klayout -b -rm /openlane/scripts/klayout/def2gds.py -rd out_gds=/openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.klayout.gds -rd tech_file=/home/adithi/OpenLane/pdks/sky130A/libs.tech/klayout/sky130A.lyt -rd design_name=counter_16b -rd in_def=/openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/routing/counter_16b.def -rd {in_gds=/home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds } -rd config_file= -rd seal_gds= -rd lef_file=/openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/merged.lef |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/27-gdsii-klayout.log"
+
+Thu Mar 17 11:21:10 UTC 2022 - Executing "bash /openlane/scripts/klayout/xor.sh /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.gds /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.klayout.gds counter_16b /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/counter_16b.xor.gds |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/28-xor.log"
+
+Thu Mar 17 11:21:11 UTC 2022 - Executing "openroad -python /openlane/scripts/parse_klayout_xor_log.py -l /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/28-xor.log -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/28-xor.rpt"
+
+Thu Mar 17 11:21:11 UTC 2022 - Executing "bash /openlane/scripts/klayout/xor.sh /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.gds /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.klayout.gds counter_16b /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/counter_16b.xor.xml |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/28-xor.log"
+
+Thu Mar 17 11:21:12 UTC 2022 - Executing "openroad -python /openlane/scripts/parse_klayout_xor_log.py -l /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/28-xor.log -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/28-xor.rpt"
+
+Thu Mar 17 11:21:12 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /home/adithi/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/spice.tcl </dev/null |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/29-spice.log"
+
+Thu Mar 17 11:21:12 UTC 2022 - Executing "openroad -python /openlane/scripts/write_powered_def.py -d /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/routing/counter_16b.def -l /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/merged.lef --power-port VPWR --ground-port VGND --powered-netlist {} -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/29-powered_def.def |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/30-write_powered_def.log"
+
+Thu Mar 17 11:21:13 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/write_verilog.tcl"
+
+Thu Mar 17 11:21:13 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/tmp\/finishing\/29-powered_netlist.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:21:13 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.20.16\/tmp\/routing\/19-detailed.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/config.tcl"
+
+Thu Mar 17 11:21:13 UTC 2022 - Executing "netgen -batch source /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/32-setup_file.lef.lvs |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/32-lef.log"
+
+Thu Mar 17 11:21:13 UTC 2022 - Executing "magic -noconsole -dnull -rcfile /home/adithi/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openlane/scripts/magic/drc.tcl </dev/null |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/33-drc.log"
+
+Thu Mar 17 11:21:14 UTC 2022 - Executing "openroad -python /openlane/scripts/magic_drc_to_tcl.py -i /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.rpt -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.tcl"
+
+Thu Mar 17 11:21:14 UTC 2022 - Executing "openroad -python /openlane/scripts/magic_drc_to_tr_drc.py -i /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.rpt -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.tr"
+
+Thu Mar 17 11:21:15 UTC 2022 - Executing "openroad -python /openlane/scripts/tr_drc_to_klayout_drc.py -i /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.tr -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.klayout.xml --design-name counter_16b"
+
+Thu Mar 17 11:21:15 UTC 2022 - Executing "openroad -python /openlane/scripts/magic_drc_to_rdb.py --magic_drc_in /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.rpt --rdb_out /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/finishing/drc.rdb"
+
+Thu Mar 17 11:21:15 UTC 2022 - Executing "openroad -exit /openlane/scripts/openroad/antenna_check.tcl"
+
+Thu Mar 17 11:21:15 UTC 2022 - Executing "awk -v vdd=VPWR -v gnd=VGND -f /openlane/scripts/cvc/sky130A/power.awk /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/29-powered_netlist.v > /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/counter_16b.power"
+
+Thu Mar 17 11:21:15 UTC 2022 - Executing "awk -f /openlane/scripts/cvc/sky130A/cdl.awk /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/cdl/sky130_fd_sc_hd.cdl /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.lef.spice > /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/finishing/counter_16b.cdl"
+
+Thu Mar 17 11:21:15 UTC 2022 - Executing "cvc /openlane/scripts/cvc/sky130A/cvcrc.sky130A |& tee /dev/null /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/logs/finishing/35-erc_screen.log"
+
+Thu Mar 17 11:21:16 UTC 2022 - Executing "openroad -python /openlane/scripts/generate_reports.py -d /openlane/designs/counter_16b --design_name counter_16b --tag RUN_2022.03.17_11.20.16 --output_file /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/final_summary_report.csv --man_report /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/reports/manufacturability_report.rpt --run_path /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16"
+

@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>XOR /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.gds vs. /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/finishing/counter_16b.klayout.gds</description>
+ <original-file/>
+ <generator>drc: script='/openlane/scripts/klayout/xor.drc'</generator>
+ <top-cell>counter_16b</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>122/16</name>
+   <description>XOR results for layer 122/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>235/4</name>
+   <description>XOR results for layer 235/4 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>236/0</name>
+   <description>XOR results for layer 236/0 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/16</name>
+   <description>XOR results for layer 64/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/20</name>
+   <description>XOR results for layer 64/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/5</name>
+   <description>XOR results for layer 64/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/59</name>
+   <description>XOR results for layer 64/59 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>65/20</name>
+   <description>XOR results for layer 65/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>65/44</name>
+   <description>XOR results for layer 65/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>66/20</name>
+   <description>XOR results for layer 66/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>66/44</name>
+   <description>XOR results for layer 66/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/16</name>
+   <description>XOR results for layer 67/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/20</name>
+   <description>XOR results for layer 67/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/44</name>
+   <description>XOR results for layer 67/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/5</name>
+   <description>XOR results for layer 67/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/16</name>
+   <description>XOR results for layer 68/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/20</name>
+   <description>XOR results for layer 68/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/44</name>
+   <description>XOR results for layer 68/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/5</name>
+   <description>XOR results for layer 68/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/16</name>
+   <description>XOR results for layer 69/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/20</name>
+   <description>XOR results for layer 69/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/44</name>
+   <description>XOR results for layer 69/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/5</name>
+   <description>XOR results for layer 69/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/16</name>
+   <description>XOR results for layer 70/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/20</name>
+   <description>XOR results for layer 70/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/44</name>
+   <description>XOR results for layer 70/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/5</name>
+   <description>XOR results for layer 70/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/16</name>
+   <description>XOR results for layer 71/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/20</name>
+   <description>XOR results for layer 71/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/44</name>
+   <description>XOR results for layer 71/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/5</name>
+   <description>XOR results for layer 71/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>72/16</name>
+   <description>XOR results for layer 72/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>72/20</name>
+   <description>XOR results for layer 72/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>72/5</name>
+   <description>XOR results for layer 72/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>78/44</name>
+   <description>XOR results for layer 78/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>81/4</name>
+   <description>XOR results for layer 81/4 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>83/44</name>
+   <description>XOR results for layer 83/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>93/44</name>
+   <description>XOR results for layer 93/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>94/20</name>
+   <description>XOR results for layer 94/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>95/20</name>
+   <description>XOR results for layer 95/20 </description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>counter_16b</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0.09,0;0.09,4;0.16,4;0.16,3.74;0.3,3.74;0.3,4;0.37,4;0.37,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (12.97,0;12.97,4;13.04,4;13.04,3.74;13.18,3.74;13.18,4;13.25,4;13.25,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (29.07,0;29.07,4;29.14,4;29.14,3.74;29.28,3.74;29.28,4;29.35,4;29.35,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (45.17,0;45.17,4;45.24,4;45.24,3.74;45.38,3.74;45.38,4;45.45,4;45.45,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (61.27,0;61.27,4;61.34,4;61.34,3.74;61.48,3.74;61.48,4;61.55,4;61.55,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (12.97,81.625;12.97,85.625;13.25,85.625;13.25,81.625;13.18,81.625;13.18,81.94;13.04,81.94;13.04,81.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (29.07,81.625;29.07,85.625;29.35,85.625;29.35,81.625;29.28,81.625;29.28,81.94;29.14,81.94;29.14,81.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (45.17,81.625;45.17,85.625;45.45,85.625;45.45,81.625;45.38,81.625;45.38,81.94;45.24,81.94;45.24,81.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (61.27,81.625;61.27,85.625;61.55,85.625;61.55,81.625;61.48,81.625;61.48,81.94;61.34,81.94;61.34,81.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (74.15,81.625;74.15,85.625;74.43,85.625;74.43,81.625;74.36,81.625;74.36,81.94;74.22,81.94;74.22,81.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[0]',r0 74.29,83.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[10]',r0 45.31,83.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[11]',r0 29.21,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[15]',r0 29.21,83.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[1]',r0 0.23,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[2]',r0 13.11,83.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[3]',r0 61.41,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[4]',r0 13.11,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[8]',r0 61.41,83.625)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'69/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[9]',r0 45.31,2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (70.905,0.04;70.905,0.19;71.3,0.19;71.3,0.49;70.905,0.49;70.905,0.64;74.905,0.64;74.905,0.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,13.64;0,14.24;4,14.24;4,14.09;3.22,14.09;3.22,13.79;4,13.79;4,13.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (70.905,17.04;70.905,17.19;71.3,17.19;71.3,17.49;70.905,17.49;70.905,17.64;74.905,17.64;74.905,17.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,30.64;0,31.24;4,31.24;4,31.09;3.22,31.09;3.22,30.79;4,30.79;4,30.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (70.905,34.04;70.905,34.19;71.3,34.19;71.3,34.49;70.905,34.49;70.905,34.64;74.905,34.64;74.905,34.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,47.64;0,48.24;4,48.24;4,48.09;3.22,48.09;3.22,47.79;4,47.79;4,47.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (70.905,51.04;70.905,51.19;71.3,51.19;71.3,51.49;70.905,51.49;70.905,51.64;74.905,51.64;74.905,51.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,64.64;0,65.24;4,65.24;4,65.09;3.22,65.09;3.22,64.79;4,64.79;4,64.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (70.905,68.04;70.905,68.19;71.3,68.19;71.3,68.49;70.905,68.49;70.905,68.64;74.905,68.64;74.905,68.04)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,81.64;0,82.24;4,82.24;4,82.09;3.22,82.09;3.22,81.79;4,81.79;4,81.64)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('clock',r0 72.905,17.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[12]',r0 72.905,68.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[13]',r0 72.905,0.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[14]',r0 2,64.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[5]',r0 2,13.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[6]',r0 72.905,51.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count[7]',r0 2,30.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count_en',r0 2,47.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('count_tc',r0 2,81.94)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('reset',r0 72.905,34.34)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (15.7,20.665;15.7,20.667;16.5,20.667;16.5,20.665)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (36.86,20.665;36.86,20.667;37.66,20.667;37.66,20.665)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (58.02,20.665;58.02,20.667;58.82,20.667;58.82,20.665)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (15.7,21.465;15.7,21.467;16.5,21.467;16.5,21.465)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (36.86,21.465;36.86,21.467;37.66,21.467;37.66,21.465)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (58.02,21.465;58.02,21.467;58.82,21.467;58.82,21.465)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (26.28,31.09;26.28,31.093;27.08,31.093;27.08,31.09)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (47.44,31.09;47.44,31.093;48.24,31.093;48.24,31.09)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (26.28,31.89;26.28,31.893;27.08,31.893;27.08,31.89)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (47.44,31.89;47.44,31.893;48.24,31.893;48.24,31.89)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (26.28,51.945;26.28,51.946;27.08,51.946;27.08,51.945)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (47.44,51.945;47.44,51.946;48.24,51.946;48.24,51.945)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (26.28,52.745;26.28,52.746;27.08,52.746;27.08,52.745)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (47.44,52.745;47.44,52.746;48.24,52.746;48.24,52.745)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (15.7,62.37;15.7,62.373;16.5,62.373;16.5,62.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (36.86,62.37;36.86,62.373;37.66,62.373;37.66,62.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (58.02,62.37;58.02,62.373;58.82,62.373;58.82,62.37)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (15.7,63.17;15.7,63.173;16.5,63.173;16.5,63.17)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (36.86,63.17;36.86,63.173;37.66,63.173;37.66,63.17)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/44'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (58.02,63.17;58.02,63.173;58.82,63.173;58.82,63.17)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VGND',r0 26.68,42.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VPWR',r0 16.1,42.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,20.265;5.52,20.267;69,20.267;69,20.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,21.865;5.52,21.867;69,21.867;69,21.865)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,30.693;5.52,30.695;69,30.695;69,30.693)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,32.293;5.52,32.295;69,32.295;69,32.293)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,51.545;5.52,51.546;69,51.546;69,51.545)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,53.145;5.52,53.146;69,53.146;69,53.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,61.973;5.52,61.975;69,61.975;69,61.973)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/16'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,63.573;5.52,63.575;69,63.575;69,63.573)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,20.265;5.52,20.267;69,20.267;69,20.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,21.865;5.52,21.867;69,21.867;69,21.865)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,30.69;5.52,30.693;69,30.693;69,30.69)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,32.293;5.52,32.295;69,32.295;69,32.293)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,51.545;5.52,51.546;69,51.546;69,51.545)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,53.145;5.52,53.146;69,53.146;69,53.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,61.97;5.52,61.973;69,61.973;69,61.97)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/20'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (5.52,63.573;5.52,63.575;69,63.575;69,63.573)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VGND',r0 37.26,31.493)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'72/5'</category>
+   <cell>counter_16b</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VPWR',r0 37.26,21.067)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

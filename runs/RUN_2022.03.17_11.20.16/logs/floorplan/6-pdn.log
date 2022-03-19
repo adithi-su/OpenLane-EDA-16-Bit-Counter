@@ -1,0 +1,153 @@
+OpenROAD 944855835623e651e7b9c7c50efcce1fb04b4fee 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/merged_unpadded.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/merged_unpadded.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/floorplan/counter_16b.def
+[INFO ODB-0128] Design: counter_16b
+[INFO ODB-0130]     Created 20 pins.
+[INFO ODB-0131]     Created 176 components and 880 component-terminals.
+[INFO ODB-0133]     Created 83 nets and 276 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/results/floorplan/counter_16b.def
+[INFO PDN-0016] Power Delivery Network Generator: Generating PDN
+  config: /openlane/scripts/openroad/pdn_cfg.tcl
+[INFO PDN-0008] Design name is counter_16b.
+[INFO PDN-0009] Reading technology data.
+[INFO PDN-0011] ****** INFO ******
+Type: stdcell, stdcell_grid
+    Stdcell Rails
+      Layer: met1  -  width: 0.480  pitch: 5.440 
+    Straps
+      Layer: met4  -  width: 1.600  pitch: 21.160  offset: 10.580 
+      Layer: met5  -  width: 1.600  pitch: 20.853  offset: 10.427 
+    Connect: {met4 met5} {met1 met4}
+Type: macro, CORE_macro_grid_1
+    Macro orientation: R0 R180 MX MY R90 R270 MXR90 MYR90
+    Straps
+    Connect: {met4_PIN_ver met5}
+[INFO PDN-0012] **** END INFO ****
+[INFO PDN-0013] Inserting stdcell grid - stdcell_grid.
+[INFO PDN-0015] Writing to database.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 63.480 or core height of 62.560. Changing bump location to the center of the die at (31.740, 31.280).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[WARNING PSM-0030] VSRC location at (31.740um, 31.280um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (37.260um, 21.067um).
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 282.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VGND is not explicitly set.
+[WARNING PSM-0021] Using voltage 0.000V for ground network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 63.480 or core height of 62.560. Changing bump location to the center of the die at (31.740, 31.280).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[WARNING PSM-0030] VSRC location at (31.740um, 31.280um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (26.680um, 31.493um).
+[INFO PSM-0031] Number of PDN nodes on net VGND = 232.
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VGND are connected.
+[INFO]: Setting RC values...
+[INFO PSM-0002] Output voltage file is specified as: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.20.16/tmp/floorplan/6-pdn.pga.rpt.
+[WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
+[WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.
+[WARNING PSM-0019] Voltage on net VPWR is not explicitly set.
+[WARNING PSM-0022] Using voltage 1.800V for VDD network.
+[WARNING PSM-0063] Specified bump pitches of 140.000 and 140.000 are less than core width of 63.480 or core height of 62.560. Changing bump location to the center of the die at (31.740, 31.280).
+[WARNING PSM-0065] VSRC location not specified, using default checkerboard pattern with one VDD every size bumps in x-direction and one in two bumps in the y-direction
+[WARNING PSM-0030] VSRC location at (31.740um, 31.280um) and size 10.000um, is not located on an existing power stripe node. Moving to closest node at (37.260um, 21.067um).
+[INFO PSM-0031] Number of PDN nodes on net VPWR = 282.
+[WARNING PSM-0024] Instance _063_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _064_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _065_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _066_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _067_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _068_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _069_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _070_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _071_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _072_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _073_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _074_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _075_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _076_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _077_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _078_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _079_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _080_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _081_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _082_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _083_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _084_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _085_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _086_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _087_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _088_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _089_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _090_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _091_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _092_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _093_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _094_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _095_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _096_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _097_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _098_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _099_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _100_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _101_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _102_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _103_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _104_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _105_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _106_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _107_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _108_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _109_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _110_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _111_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _112_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _113_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _114_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _115_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _116_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _117_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _118_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _119_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _120_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _121_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _122_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _123_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _124_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _125_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _126_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _127_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _128_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _129_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _130_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _131_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _132_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _133_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _134_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _135_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _136_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _137_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _138_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _139_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _140_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _141_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[WARNING PSM-0024] Instance _142_, current node at (5400, 13600) at layer 2 have been moved from (0, 0).
+[INFO PSM-0064] Number of voltage sources = 1.
+[INFO PSM-0040] All PDN stripes on net VPWR are connected.
+########## IR report #################
+Worstcase voltage: 1.80e+00 V
+Average IR drop  : 7.85e-11 V
+Worstcase IR drop: 1.46e-09 V
+######################################

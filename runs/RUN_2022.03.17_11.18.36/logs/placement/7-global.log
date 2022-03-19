@@ -1,0 +1,44 @@
+OpenROAD 944855835623e651e7b9c7c50efcce1fb04b4fee 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36/tmp/merged_unpadded.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 441 library cells
+[INFO ODB-0226] Finished LEF file:  /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36/tmp/merged_unpadded.lef
+[INFO ODB-0127] Reading DEF file: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36/tmp/floorplan/6-pdn.def
+[INFO ODB-0128] Design: counter_16b
+[INFO ODB-0130]     Created 22 pins.
+[INFO ODB-0131]     Created 124 components and 740 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 464 connections.
+[INFO ODB-0133]     Created 83 nets and 276 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36/tmp/floorplan/6-pdn.def
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 5520 10880
+[INFO GPL-0005] CoreAreaUxUy: 45540 48960
+[INFO GPL-0006] NumInstances: 124
+[INFO GPL-0007] NumPlaceInstances: 80
+[INFO GPL-0008] NumFixedInstances: 44
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 83
+[INFO GPL-0011] NumPins: 296
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 51435 62155
+[INFO GPL-0014] CoreAreaLxLy: 5520 10880
+[INFO GPL-0015] CoreAreaUxUy: 45540 48960
+[INFO GPL-0016] CoreArea: 1523961600
+[INFO GPL-0017] NonPlaceInstsArea: 125120000
+[INFO GPL-0018] PlaceInstsArea: 815782400
+[INFO GPL-0019] Util(%): 58.32
+[INFO GPL-0020] StdInstsArea: 815782400
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG Error: 0.00000008 HPWL: 1655050
+[InitialPlace]  Iter: 2 CG Error: 0.00000006 HPWL: 1471406
+[InitialPlace]  Iter: 3 CG Error: 0.00000010 HPWL: 1473276
+[InitialPlace]  Iter: 4 CG Error: 0.00000005 HPWL: 1474851
+[InitialPlace]  Iter: 5 CG Error: 0.00000009 HPWL: 1478483
+[ERROR GPL-0302] Use a higher -density or re-floorplan with a larger core area.
+Given target density: 0.55
+Suggested target density: 0.58
+Error: replace.tcl, 90 GPL-0302

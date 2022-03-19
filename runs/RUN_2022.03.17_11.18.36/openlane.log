@@ -1,0 +1,46 @@
+[INFO]: Current run directory is /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36
+[INFO]: Preparing LEF Files...
+[INFO]: Running Synthesis...
+[INFO]: Running Static Timing Analysis...
+[INFO]: Running Initial Floorplanning...
+[WARNING]: Current core area is too small for a power grid. The power grid will be minimized.
+[INFO]: Setting Core Dimensions...
+[INFO]: Running IO Placement...
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: Power planning with power {VPWR} and ground {VGND}...
+[INFO]: Generating PDN...
+[INFO]: Running Global Placement...
+[ERROR]: during executing openroad script /openlane/scripts/openroad/replace.tcl
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+[InitialPlace]  Iter: 1 CG Error: 0.00000008 HPWL: 1655050
+[InitialPlace]  Iter: 2 CG Error: 0.00000006 HPWL: 1471406
+[InitialPlace]  Iter: 3 CG Error: 0.00000010 HPWL: 1473276
+[InitialPlace]  Iter: 4 CG Error: 0.00000005 HPWL: 1474851
+[InitialPlace]  Iter: 5 CG Error: 0.00000009 HPWL: 1478483
+[ERROR GPL-0302] Use a higher -density or re-floorplan with a larger core area.
+Given target density: 0.55
+Suggested target density: 0.58
+Error: replace.tcl, 90 GPL-0302
+child process exited abnormally
+
+[INFO]: Saving runtime environment...
+[INFO]: Creating reproducible...
+[INFO]: Reproducible packaged: Please tarball and upload designs/counter_16b/runs/RUN_2022.03.17_11.18.36/openroad_issue_reproducible if you're going to submit an issue.
+[INFO]: Generating Final Summary Report...
+[INFO]: Design Name: counter_16b
+Run Directory: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36
+Source not found.
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36/logs/finishing/counter_16b.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.
+[INFO]: check full report here: /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.18.36/reports/final_summary_report.csv
+[INFO]: Saving runtime environment...
+[ERROR]: Flow failed.
+[INFO]: The failure may have been because of the following warnings:

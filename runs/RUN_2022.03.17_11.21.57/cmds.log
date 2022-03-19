@@ -1,0 +1,20 @@
+Thu Mar 17 11:21:57 UTC 2022 - Executing "/openlane/scripts/mergeLef.py -i /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/merged_unpadded.lef |& tee /dev/null"
+
+Thu Mar 17 11:21:57 UTC 2022 - Executing "openroad -python /openlane/scripts/mergeLib.py --output /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/synthesis/merged.lib --name sky130A_merged /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Thu Mar 17 11:21:58 UTC 2022 - Executing "openroad -python /openlane/scripts/libtrim.py --cell-file /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/synthesis/trimmed.lib /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/synthesis/merged.lib"
+
+Thu Mar 17 11:21:58 UTC 2022 - Executing "echo {openlane 00da77e58c86a2fa745dafc2f4b277191cb8d3ac} > /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/OPENLANE_VERSION"
+
+Thu Mar 17 11:21:58 UTC 2022 - Executing "openroad -python /openlane/scripts/new_tracks.py -i /home/adithi/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/routing/config.tracks"
+
+Thu Mar 17 11:21:58 UTC 2022 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/adithi/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/tmp/synthesis/0-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Thu Mar 17 11:21:58 UTC 2022 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl -l /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/logs/synthesis/0-synthesis.log |& tee /dev/null"
+
+Thu Mar 17 11:22:04 UTC 2022 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openlane\/designs\/counter_16b\/runs\/RUN_2022.03.17_11.21.57\/results\/synthesis\/counter_16b.v/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/config.tcl"
+
+Thu Mar 17 11:22:04 UTC 2022 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/config.tcl"
+
+Thu Mar 17 11:22:04 UTC 2022 - Executing "openroad -python /openlane/scripts/synth_exp/analyze.py --output /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/reports/synthesis/0-exploration_analysis.html /openlane/designs/counter_16b/runs/RUN_2022.03.17_11.21.57/logs/synthesis/0-synthesis.log"
+

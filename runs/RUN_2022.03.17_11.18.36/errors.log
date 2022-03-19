@@ -1,0 +1,15 @@
+[ERROR]: during executing openroad script /openlane/scripts/openroad/replace.tcl
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+[InitialPlace]  Iter: 1 CG Error: 0.00000008 HPWL: 1655050
+[InitialPlace]  Iter: 2 CG Error: 0.00000006 HPWL: 1471406
+[InitialPlace]  Iter: 3 CG Error: 0.00000010 HPWL: 1473276
+[InitialPlace]  Iter: 4 CG Error: 0.00000005 HPWL: 1474851
+[InitialPlace]  Iter: 5 CG Error: 0.00000009 HPWL: 1478483
+[ERROR GPL-0302] Use a higher -density or re-floorplan with a larger core area.
+Given target density: 0.55
+Suggested target density: 0.58
+Error: replace.tcl, 90 GPL-0302
+child process exited abnormally
+
+[ERROR]: Flow failed.
